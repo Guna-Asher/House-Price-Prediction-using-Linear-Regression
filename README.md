@@ -59,7 +59,7 @@ This project applies **linear regression** to predict house prices based on mult
 
 ## 👤 Author
 
-**Guna**  
+**Guna R**  
 🎓 MCA Student @ DSCE Bengaluru  
 💻 Focused on data science, automation, and practical tech applications  
 🐄 Exploring IoT for smart dairy farming  
