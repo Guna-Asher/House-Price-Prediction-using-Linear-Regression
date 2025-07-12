@@ -33,8 +33,42 @@ This project applies **linear regression** to predict house prices based on mult
 
 ---
 
-## 🚀 How to Run This Project
 
-1. **Install dependencies**:
-   ```bash
-   pip install kagglehub pandas scikit-learn matplotlib seaborn
+## 📊 Model Results
+
+- **R² Score**: `0.884`  
+  The model explains **88.4% of the variance** in house prices, indicating a strong linear relationship between features and target.
+
+- **Mean Squared Error (MSE)**: `17.5 billion`  
+  While this number seems large, it's expected due to the scale of housing prices and variability in the dataset.
+
+---
+
+## 🔧 Scope for Improvement
+
+| Strategy                    | Benefit                                           |
+|-----------------------------|---------------------------------------------------|
+| Remove Outliers             | Helps stabilize predictions and reduce MSE        |
+| Apply Feature Scaling       | Improves performance of linear regression         |
+| Use Regularized Models      | Ridge or Lasso regression to minimize overfitting |
+| Log-transform Price Feature | Normalizes skewed data for better prediction      |
+| Feature Selection           | Reduce noise by dropping low-impact features      |
+| Build Streamlit or Flask UI | Enables user-friendly, interactive predictions    |
+
+---
+
+## 👤 Author
+
+**Guna**  
+🎓 MCA Student @ DSCE Bengaluru  
+💻 Focused on data science, automation, and practical tech applications  
+🐄 Exploring IoT for smart dairy farming  
+📈 Passionate about building efficient systems that merge traditional industries with modern innovation
+
+---
+
+## 📜 License
+
+MIT License  
+This project is open-source and free to use, adapt, and extend for learning or development.
+
